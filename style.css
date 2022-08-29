@@ -1,0 +1,128 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: url('assets/home.png') center center / cover no-repeat;
+}
+
+.body__wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ancient {
+    width: 33%;
+}
+
+.ancient__img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.button__block {
+    width: 33%;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    height: 60px;
+    width: 140px;
+    border: red solid 1px;
+    color: red;
+    background: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 21px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button:hover {
+    height: 70px;
+    width: 155px;
+    color: rgb(183, 0, 0);
+    border-radius: 7px;
+}
+
+.cards {
+    width: 33%;
+}
+
+.cards__wrapper {
+    display: none;
+}
+
+.cards__stages_text {
+    text-align: center;
+    color: red;
+}
+
+.cards__stages_circles {
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle  {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+.circle_one {
+    background-color: rgb(50, 113, 50);
+}
+
+.circle_two {
+    background-color: rgb(160, 38, 38);
+}
+
+.circle_three {
+    background-color: rgb(51, 51, 208);
+}
+
+.cards__shirt_wrapper {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 130px;
+    height: 190px;
+}
+
+.cards__shirt {
+    width: 130px;
+    height: 190px;
+    background: url('assets/mythicCardBackground.png') center center / cover no-repeat;
+    cursor: pointer;
+}
+
+.cards__card {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 130px;
+    height: 190px;
+    background: url('assets/MythicCards/brown/brown15.png') center center / cover no-repeat;
+    opacity: 0;
+}
+
+.black_text {
+    color: black;
+}
